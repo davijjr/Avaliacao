@@ -1,0 +1,27 @@
+.cabecalho{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.logo_costa{
+    width: 44px;
+    height: 44px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container_imagem{
+    padding: 1em;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: black;
+    width: 60vw;
+}
+.container-botao{
+    display: nome;
+}

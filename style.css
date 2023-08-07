@@ -1,0 +1,13 @@
+@import url(styles/header.css);
+@import url(styles/grid.css);
+:root{
+    --cor-de-fundo: #cac1c1;
+    --branco: #FFFFFF;
+    --roxo-degrade:
+    lineear-gradient(94.49deg, #733887 35.84%, #C75EEB 143.32% );
+    --font-secundaria: "borel";
+
+}
+body{
+    background-color: aqua;
+}
