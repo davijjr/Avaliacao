@@ -1,0 +1,72 @@
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.container_imagem{
+    padding: 1em;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: black;
+    width: 60vw;
+}
+
+.cabecalho__menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/menu.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabecalho {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.logo_costa{
+    width: 44px;
+    height: 44px;
+}
+.container_imagem{
+    padding: 1em;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: black;
+    width: 60vw;
+}
+.container_botao{
+    display: none;
+}
+.container_botao:checked~.lista-menu{
+    display: block;
+}
+.lista-menu_TITULO{
+    color:darkmagenta
+}
+.lista-menu_TITULO, .lista-menu_item{
+    padding: 1em;
+    background-color: black;
+}
+.titulo_cabecalho{
+    display: block;
+}
+
+@media screen and (min-width: 1024px) {    
+    .titulo_cabecalho{
+        font-size: 30px;
+        font-family: var(--font-secundaria);
+        color: black;
+        display: block;
+    }
+}
